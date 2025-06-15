@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Tenor+Sans&display=swap');
 
+nav {
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
 h1 {
     font-family: 'Shrikhand';
     color: #bdb246ff;
