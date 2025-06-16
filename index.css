@@ -8,12 +8,12 @@ body {
 }
 
 main {
-  padding-left: 30px;
-  padding-right: 90px;
+  padding-left: 20px;
 }
 
 h1 {
-    font-family: 'Shrikhand';
+    font-family: 'Tenor Sans';
+    font-weight: 600;
     font-size: 60px;
     color: #222222ff;
 }
@@ -25,22 +25,30 @@ h3 {
 }
 
 p {
-    font-family: 'Tenor Sans';
+    font-family: 'Poppins';
     font-size: 15px;
+}
+
+a {
+    color: #856084ff;
+    text-decoration: none;
 }
 
 /* STYLE NAV BAR */
 nav {
     padding-left: 10px;
     margin-left: 25px;
-    padding-right: 10px;
+    padding-right: 12px;
     margin-right: 50px;
     padding-top: 10px;
     margin-top: 25px;
+    padding-bottom: 8px;
     border: 2px solid #222222ff;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
+    width: 260px;           
+    align-self: flex-start;
 }
 
 button {
@@ -49,5 +57,11 @@ button {
     color: #222222ff;
     background-color: transparent;
     border: none;
-    padding: 7px;
+}
+
+#nav-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    margin: 3px;
 }
