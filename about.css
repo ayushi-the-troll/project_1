@@ -29,6 +29,17 @@ p {
     font-size: 15px;
 }
 
+.about-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+}
+.line {
+    margin-bottom: 10px;
+}
+
 a {
     color: #856084ff;
     text-decoration: none;
