@@ -31,13 +31,16 @@ p {
 
 /* STYLE NAV BAR */
 nav {
-    padding-left: 25px;
-    padding-right: 50px;
-
-}
-
-.nav-title {
-    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 25px;
+    padding-right: 10px;
+    margin-right: 50px;
+    padding-top: 10px;
+    margin-top: 25px;
+    border: 2px solid #222222ff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
 }
 
 button {
@@ -46,5 +49,5 @@ button {
     color: #222222ff;
     background-color: transparent;
     border: none;
-    padding: 10px;
+    padding: 7px;
 }
